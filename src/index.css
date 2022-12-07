@@ -12,18 +12,26 @@ body {
   background-size: cover;
 }
 
-.inputs>input {
-  width: 30%;
-  height: 30%;
+input {
+  display: flex;
+  height: 100%;
   color: rgb(61, 61, 61);
   border-radius: 10px;
 }
 
 .inputs {
   display: grid;
-  gap:10px;
+  gap: 10px;
 }
 
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
 
 .container {
   display: grid;
@@ -34,6 +42,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.description {
+  font-size: 25px;
 }
 
 .btn {
